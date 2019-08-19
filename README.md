@@ -10,6 +10,13 @@
 
   ![](doc/src/images/Telco_Arch_final.png)
   
+1. Data stored across various sources like, AWS Cloud, IBM Cloud is virtualised and joined as needed by the AI Models.
+2. The joined data is stored back to the Internal Db of Cloud Pak for Data and Assigned to the current working project.
+3. Create ML Models using Jupyter Python Notebooks to predict Call Drop, towerwise and also a Time Series Model that Projects a Call Drop % based real-time conditions.
+4. Model trained and/or stored in Watson Machine Learning, which is also connected to the AI OpenScale.
+5. Visualise and Analyse insights from the trained Models and the data using Cognos Analytics Dasboard. 
+6. Configure Fairness, Quality and Explainability Montiors for each Tower's model, present within Cloud Pak for Data or on other external Clouds (Multi-Cloud Architecture).
+
 ## Steps
 1. [Create a new Watson Studio Project]()
 2. [Add a new Watson Machine Learning Model]()
