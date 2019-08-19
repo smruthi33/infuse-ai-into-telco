@@ -158,3 +158,12 @@ This Code Pattern aims to predict the Call Drop on various towers of a selected 
 
   ![](doc/src/gif/send_feedback.gif)
 * Navigate to this cloned repo, `Dataset>TowerC_Feedback.csv`.
+
+## Sample Output
+
+  * The Dashboard shows 2 views. 
+    1) A map based selection of each tower, on selection of one tower, it shows the call drop prediction over the next 24 hours, with the help of the Time Series Model. It also shows which factors affect the Call Drop Percentage at one tower and by how much?
+    ![](doc/src/gif/output1.png)
+    2) Shows a Tower based analysis of Call Drop. Also, shows how the importance of factors have improved after de-biasing from AI OpenScale.
+  
+  ![](doc/src/gif/output2.png)
