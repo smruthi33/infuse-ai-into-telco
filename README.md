@@ -6,6 +6,8 @@
 ## Pre-requisites
 * [IBM Cloud Pak for Data]() Or [IBM Cloud Account](https://cloud.ibm.com/)
 
+## Architecture Diagram
+
 
 ## Steps
 1. [Create a new Watson Studio Project]()
