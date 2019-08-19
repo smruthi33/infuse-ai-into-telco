@@ -1,4 +1,4 @@
-# Predict, Manage and Monitor the call drops of cell tower with CP4D
+# Predict, Manage and Monitor the call drops of cell tower using Cloud Pack for Data
 
 This Code Pattern aims to predict the Call Drop on various towers of a selected region, It is trained on actual call drop and success scenarios, so as to identify at an earlier stage and take necessary measures. This will be beneficial for Telecomm Service Providers to take the necessary action to improve the network coverage for their customers. Furthermore, the solution will be built on IBM Cloud Pak for Data for them to maintain sensitive info present on Db2 Wh (SMP) and Db2 on Cloud and consumed by a Time Series model that gives a next 24-hour call drop prediction, using in-built Notebook Service. The Time-Series Model will be monitored by Tower ( in a real-time production environment) on AI OpenScale which will provide Transparency and identify the biased features of the model. Finally, the Cognos Analytics Dashboard Visualisations will give a Service Provider an overall region-wise view of the call-drop scenarios. Thus, the Code Pattern is an end-to-end solution to monitor and ensure the quality of a cell tower.
 
@@ -161,9 +161,11 @@ This Code Pattern aims to predict the Call Drop on various towers of a selected 
 
 ## Sample Output
 
-  * The Dashboard shows 2 views. 
+  * Cognos Analytics Dashboard shows 2 views. 
+  
     1) A map based selection of each tower, on selection of one tower, it shows the call drop prediction over the next 24 hours, with the help of the Time Series Model. It also shows which factors affect the Call Drop Percentage at one tower and by how much?
     ![](doc/src/images/output1.png)
+    
     2) Shows a Tower based analysis of Call Drop. Also, shows how the importance of factors have improved after de-biasing from AI OpenScale.
   
   ![](doc/src/images/output2.png)
