@@ -1,4 +1,6 @@
-# Predict Call Drops, manage and monitor the quality of cell tower with ICP4D
+# Predict, Manage and Monitor the call drops of cell tower with CP4D
+
+This Code Pattern aims to predict the Call Drop on various towers of a selected region, It is trained on actual call drop and success scenarios, so as to identify at an earlier stage and take necessary measures. This will be beneficial for Telecomm Service Providers to take the necessary action to improve the network coverage for their customers. Furthermore, the solution will be built on IBM Cloud Pak for Data for them to maintain sensitive info present on Db2 Wh (SMP) and Db2 on Cloud and consumed by a Time Series model that gives a next 24-hour call drop prediction, using in-built Notebook Service. The Time-Series Model will be monitored by Tower ( in a real-time production environment) on AI OpenScale which will provide Transparency and identify the biased features of the model. Finally, the Cognos Analytics Dashboard Visualisations will give a Service Provider an overall region-wise view of the call-drop scenarios. Thus, the Code Pattern is an end-to-end solution to monitor and ensure the quality of a cell tower.
 
 
 
