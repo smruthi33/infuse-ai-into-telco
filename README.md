@@ -8,7 +8,8 @@
 
 ## Architecture Diagram
 
-
+  ![](doc/src/images/Telco_Arch_final.png)
+  
 ## Steps
 1. [Create a new Watson Studio Project]()
 2. [Add a new Watson Machine Learning Model]()
