@@ -1,7 +1,6 @@
-# infuse-ai-into-telco
+# Predict Call Drops, manage and monitor the quality of cell tower with ICP4D
 
-# WORK IN PROGRESS
-# Monitor your ML Models using Watson OpenScale
+
 
 ## Pre-requisites
 * [IBM Cloud Pak for Data]() Or [IBM Cloud Account](https://cloud.ibm.com/)
