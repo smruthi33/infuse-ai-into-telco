@@ -64,10 +64,37 @@ Note: This Pattern is a 301 and will require you to completely setup with the he
 
 ### 1. Data Virtualisation
 
+* Clone this repo, by clicking on the `Clone or Download` button.
 * Log in to your Cloud Pak for Data instance, with your credentials.
 
    ![](doc/src/images/login_page.png)
+* Follow the Documentation in the [Data Virtualisation](#1-data-virtualisation) to perform DV from multiple sources. For this pattern, use the dataset given in this repo. Navigate to `dataset` and use the `weatherdata.csv` and `antena_traffic.csv` files.
 
+### 2. Setup a new notebook on your Cloud Pak for Data
+
+* Create a new Project by clicking on the `Navigation Menu` icon in the top-left corner. Select on `Projects` tab.
+
+   ![](doc/src/images/Select_Project.png)
+   
+* Click on `New Project>Analytics Project` and then select a name for your Project.
+
+   ![](doc/src/images/name_project.png)
+   
+* Once your project open, select `Notebook>Add Notebook`. From the `From File` tab, click on Browse. Navigate to the downloaded repo>notebooks. Select the `Time-Series.ipynb` notebook and click on `Create`.
+
+   ![](doc/src/images/create_notebook.png)
+
+### 3. Setup your notebook for Call Drop Monitoring
+
+   * Complete the Tutorial
+   * Create another new notebook, with the steps mentioned above. 
+   * Now, this is in the case of Biased model. Suppose your model has a certain bias. Follow the following steps to get some feature importance values onto your Cognos Dashboard.
+   
+   
+### 4. Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for Visualisations
+
+
+   
 ## Sample Output
 
   * Cognos Analytics Dashboard shows 2 views. 
