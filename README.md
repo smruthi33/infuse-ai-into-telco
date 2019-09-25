@@ -35,7 +35,8 @@ After a user has completed this pattern they will learn how to-
 ## Pre-requisites
 * [IBM Cloud Pak for Data](https://www.ibm.com/in-en/products/cloud-pak-for-data) 
 * [Data Virtualisation](Insert DV Tutorial)
-* [Monitor your ML Models using Watson OpenScale](Insert code pattern link)
+* [Monitor your Open Source ML Models using Watson OpenScale](Insert code pattern link)
+* [Monitor your Auto AI Models using Watson OpenScale](Insert Tutorial link)
 * [Building Dashboards in Cognos Analytics on IBM Cloud Pak for Data](Insert Cognos Dashboard Tutorial)
 
 ```
@@ -54,10 +55,11 @@ Note: This Pattern is a 301 and will require you to completely setup with the he
 6. Configure Fairness, Quality and Explainability Montiors for each Tower's model, present within Cloud Pak for Data or on other external Clouds (Multi-Cloud Architecture).
 
 ## Steps
+
 1. [Data Virtualisation](#1-data-virtualisation)
 2. [Setup a new notebook on your Cloud Pak for Data instance](#2-setup-a-new-notebook-on-your-cloud-pak-for-data-instance)
 3. [Setup notebook for Call Drop Monitoring Model](#3-setup-notebook-for-call-drop-monitoring-model)
-4. [Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance](#4-setup-cognos-analytics-dashboard-on-your-cloud-pak-for-data-instance)
+4. [Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for Visualisations](#4-setup-cognos-analytics-dashboard-on-your-cloud-pak-for-data-instance-for-visualisations)
 
 
 ### 1. Data Virtualisation
