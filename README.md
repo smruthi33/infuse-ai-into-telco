@@ -1,12 +1,42 @@
 # Predict, Manage and Monitor the call drops of cell tower using Cloud Pack for Data
 
-This Code Pattern aims to predict the Call Drop on various towers of a selected region, It is trained on actual call drop and success scenarios, so as to identify at an earlier stage and take necessary measures. This will be beneficial for Telecomm Service Providers to take the necessary action to improve the network coverage for their customers. Furthermore, the solution will be built on IBM Cloud Pak for Data for them to maintain sensitive info present on Db2 Wh (SMP) and Db2 on Cloud and consumed by a Time Series model that gives a next 24-hour call drop prediction, using in-built Notebook Service. The Time-Series Model will be monitored by Tower ( in a real-time production environment) on AI OpenScale which will provide Transparency and identify the biased features of the model. Finally, the Cognos Analytics Dashboard Visualisations will give a Service Provider an overall region-wise view of the call-drop scenarios. Thus, the Code Pattern is an end-to-end solution to monitor and ensure the quality of a cell tower.
+A call drop is a situation of disconnection of call before caller ends the call mostly on wireless networks. Some of the main reasons for Call-Drop are:
 
+1. Inadequate coverage which can be due to multiple reasons
+    * Lack of tower infrastructure
+    * Improper network planning
+    * Non-optimization of network
+
+2. Overloaded cell towers – number of subscribers are growing day by day and most of them are on smartphones. The network capacity is simply not being ramped up at the same pace resulting in overloaded networks 
+3. Cityscape changes – there have been instances where a new multistoried building comes up and the adjacent building’s subscribers lose cell reception. Such instances are very common with rapidly changing cityscapes and call for routine network data analysis from service providers.
+4. Switching between towers – this situation occurs when a person is traveling or moving around while talking. If a call handover takes place from one BTS to another, especially in case of overloaded networks, there are chances of dropped calls.
+5. Technical Failures – this is beyond anyone’s control and operators generally monitor downtimes through well-equipped network operation centers.
+
+This Code Pattern Aims to Predict the Call Drop Prediction, trained on the above mentioned failures, so as to identify at an earlier stage and take necessary measures, with the help of an interactive dashboard (Embedded dashboard service
+) that helps to understand the call drops with a Time Series Model. This will be benefit Telecomm Service to take the necessary action to improve the network coverage for their customers. The following are the main features of the solution-
+
+* The solution will be built on IBM Cloud Pak for Data.
+* Data maybe from multiple db sources, be it an internal Db2 Wh (SMP) within the Cloud Pak for Data instance or any external sources like Db2 on Cloud, Oracle db, Postgres Db and so on. Data Virtualisation will take place and all of them get integrated into one db source.
+* A Time-Series Model that predicts next 24-hour call drop prediction using the built-in Notebook Service.
+* A Call-Drop Prediction model for each cell tower, region-wise and these models monitored for quality and fairness using AI OpenScale.
+* A Dashboard on Cognos Analytics will give a user an overall region-wise view of the call-drop scenarios, time-series model output in a graph and models performance improvement with the help of AI OpenScale.
+
+After a user has completed this pattern they will learn how to-
+
+1. Concept of Data Virtualization.
+2. Create Connections from Dbs hosted on multiple Cloud (AWS, Azure or IBM Cloud) or On-Premise environments.
+3. Create Views from joins and publish data to your current Project.
+4. How to store custom models using open source technology on Watson Machine Learning.
+5. How to deploy a model and connect the model deployment to Watson OpenScale on Cloud Pak for Data and on IBM Cloud.
+6. How to setup Model Fairness and Model Quality montiors and Watson OpenScale on Cloud Pak for Data and on IBM Cloud, using      python notebook.
+7. How to create a project and setup a python notebook on Cloud Pak for Data.
 
 
 ## Pre-requisites
-* [IBM Cloud Pak for Data]() Or [IBM Cloud Account](https://cloud.ibm.com/)
-* [Data Virtualisation](https://github.com/smruthi33/Data-Virtualisation)
+* [IBM Cloud Pak for Data](https://www.ibm.com/in-en/products/cloud-pak-for-data) 
+* [Data Virtualisation](Insert DV Tutorial)
+* [Monitor your ML Models using Watson OpenScale](Insert code pattern link)
+* [Building Dashboards in Cognos Analytics on IBM Cloud Pak for Data](Insert Cognos Dashboard Tutorial)
 
 ## Architecture Diagram
 
