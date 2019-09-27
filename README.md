@@ -93,11 +93,13 @@ Note: This Pattern is a 301 and will require you to completely setup with the he
    * Go back to your Project Landing Page. 
    * Clone this repo, by clicking on `Clone or Download`, unzip it and navigate to the `datasets` folder.
    * In your Project Page. Click on `Dataset>Add new Dataset> Browse`. Select the dataset downloaded.
-   ![](doc/src/gifs/adddataset.gif)
+   
+      ![](doc/src/gif/adddataset.gif)
 
    * Now, open your notebook again and click on the cell under `Section 2.2 Add Dataset`.
    * Click on the `10/01` icon and select the `Insert to code` option. Under that select `Insert Pandas Dataframe` option.
-    ![](doc/src/images/add_dataset.png)
+   
+      ![](doc/src/images/add_dataset.png)
 
 ### 3. Setup your notebook for Call Drop Monitoring
 
