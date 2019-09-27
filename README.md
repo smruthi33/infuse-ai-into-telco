@@ -100,6 +100,9 @@ Note: This Pattern is a 301 and will require you to completely setup with the he
    * Click on the `10/01` icon and select the `Insert to code` option. Under that select `Insert Pandas Dataframe` option.
    
       ![](doc/src/images/add_dataset.png)
+      
+* Go to the last cell in the notebook. Replace Schema Name with an existing Schema name.
+* Now re-open the notebook. Click on `cell> Run all`. 
 
 ### 3. Setup your notebook for Call Drop Monitoring
 
