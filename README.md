@@ -56,21 +56,12 @@ Note: This Pattern is a 301 and will require you to completely setup with the he
 
 ## Steps
 
-1. [Data Virtualisation](#1-data-virtualisation)
-2. [Setup a new notebook on your Cloud Pak for Data instance](#2-setup-a-new-notebook-on-your-cloud-pak-for-data-instance)
-3. [Setup notebook for Call Drop Monitoring Model](#3-setup-notebook-for-call-drop-monitoring-model)
-4. [Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for Visualisations](#4-setup-cognos-analytics-dashboard-on-your-cloud-pak-for-data-instance-for-visualisations)
+1. [Setup a new notebook on your Cloud Pak for Data instance](#2-setup-a-new-notebook-on-your-cloud-pak-for-data-instance)
+2. [Setup notebook for Call Drop Monitoring Model](#3-setup-notebook-for-call-drop-monitoring-model)
+3. [Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for Visualisations](#4-setup-cognos-analytics-dashboard-on-your-cloud-pak-for-data-instance-for-visualisations)
 
 
-### 1. Data Virtualisation
-
-* Clone this repo, by clicking on the `Clone or Download` button.
-* Log in to your Cloud Pak for Data instance, with your credentials.
-
-   ![](doc/src/images/login_page.png)
-* Follow the Documentation in the [Data Virtualisation](#1-data-virtualisation) to perform DV from multiple sources. For this pattern, use the dataset given in this repo. Navigate to `dataset` and use the `weatherdata.csv` and `antena_traffic.csv` files.
-
-### 2. Setup a new notebook on your Cloud Pak for Data
+### 1. Setup a new notebook on your Cloud Pak for Data
 
 * Create a new Project by clicking on the `Navigation Menu` icon in the top-left corner. Select on `Projects` tab.
 
@@ -92,7 +83,7 @@ Note: This Pattern is a 301 and will require you to completely setup with the he
  
    * Go back to your Project Landing Page. 
    * Clone this repo, by clicking on `Clone or Download`, unzip it and navigate to the `datasets` folder.
-   * In your Project Page. Click on `Dataset>Add new Dataset> Browse`. Select the dataset downloaded.
+   * In your Project Page. Click on `Dataset>Add new Dataset> Browse`. Select the `Telco_training_final.csv` downloaded.
    
       ![](doc/src/gif/adddataset.gif)
 
@@ -104,16 +95,14 @@ Note: This Pattern is a 301 and will require you to completely setup with the he
 * Go to the last cell in the notebook. Replace Schema Name with an existing Schema name.
 * Now re-open the notebook. Click on `cell> Run all`. 
 
-### 3. Setup your notebook for Call Drop Monitoring
+### 2. Setup your notebook for Call Drop Monitoring
 
-   * Complete the Tutorial
-   * Create another new notebook, with the steps mentioned above. 
-   * Now, this is in the case of Biased model. Suppose your model has a certain bias. Follow the following steps to get some feature importance values onto your Cognos Dashboard.
+   <Not sure>
    
    
-### 4. Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for Visualisations
+### 3. Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for Visualisations
 
-
+<Pls add>
    
 ## Sample Output
 
