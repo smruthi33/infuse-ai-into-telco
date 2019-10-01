@@ -97,12 +97,15 @@ Note: This Pattern is a 301 and will require you to completely setup with the he
 
 ### 2. Setup your notebook for Call Drop Monitoring
 
-   <Not sure>
+   * Follow the steps of the above code pattern to setup the deployments on Watson OpenScale.
+   [Monitor your Open Source ML Models using Watson OpenScale](Add link)
    
    
 ### 3. Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for Visualisations
 
-<Pls add>
+   * Once data is generated and stored in the db. After running the Time Series Notebook, follow the tutorial-
+   
+   [Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for Visualisations](Add link) to complete the Sample Output.
    
 ## Sample Output
 
